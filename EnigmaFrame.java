@@ -75,9 +75,11 @@ public class EnigmaFrame extends JFrame {
         JLabel out = new JLabel("Output");
         outputTextField = new JTextArea(4, 50);
         outputTextField.setEditable(false);
+        outputTextField.setLineWrap(true);
 
         bottom.add(out);
         bottom.add(outputTextField);
+
 
         // Adding Enigma Logic
 
